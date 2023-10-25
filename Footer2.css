@@ -1,0 +1,57 @@
+/* Footer2.css */
+.footer2 {
+  display: block;
+  width: 100%;
+  margin: auto;
+  background-color: blue;
+  padding: 20px 0;
+  /* text-align: center;
+    margin-left: px; */
+}
+
+.footer-text2 {
+  display: block;
+  width: 100%;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+}
+
+.deakin {
+  display: block;
+  width: 20%;
+  margin: auto;
+  /* border: 2px solid red; */
+  text-align: center;
+
+}
+
+.right2 {
+  /* border: 2px solid bisque; */
+  top: 1275px;
+  float: right;
+  width: 40%;
+  text-align: left;
+  margin-left:0px;
+
+}
+
+.left2 {
+  /* border: 2px solid sandybrown; */
+  display: inline-block;
+  position: absolute;
+  width: 35%;
+  text-align: right;
+
+}
+
+.center2 {
+  /* border: 2px solid red; */
+  display: block;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  top: 1250px;
+  
+}

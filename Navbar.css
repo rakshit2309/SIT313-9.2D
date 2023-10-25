@@ -1,0 +1,48 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .left-items {
+    flex: 1;
+  }
+  
+  .center-items {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .right-items {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none; 
+    color: inherit;
+  }
+  
+  .nav-item:hover {
+    color: #f39c12;
+  }
+
+  .nav-item Link{
+    text-decoration: none;
+  }
+  

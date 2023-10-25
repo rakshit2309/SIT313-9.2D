@@ -1,0 +1,53 @@
+/* TutorialImages.css */
+.tutorial-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top of the container */
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.image-container {
+  text-align: center;
+  width: 200px; /* Set a fixed width to maintain consistency */
+}
+
+.small-image {
+  width: 120px;
+  max-height: 120px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  margin: 0 auto 10px; /* Center image horizontally and add margin below */
+}
+
+.featured-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.see-all-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.see-all-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.see-all-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

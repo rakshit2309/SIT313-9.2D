@@ -1,0 +1,48 @@
+/* Navbar.css */
+.navbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #222222;
+  color: #fff;
+}
+
+.left-items2 {
+  flex: 1;
+  display: flex; /* Add display flex to align items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.center-items2 {
+  flex: 2;
+  text-align: center;
+}
+
+.search-bar2 {
+  width: 50%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.right-items2 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-item2 {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  background-color: rgba(26, 26, 26, 0.799);
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px; /* Add some margin between nav items */
+}
+
+.nav-item2:hover {
+  background-color: rgb(13, 13, 13);
+}

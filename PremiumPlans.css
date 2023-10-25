@@ -1,0 +1,87 @@
+/* Add hover effect to the pricing plan cards */
+.screen{
+  background-color: #9b9999;
+}
+.pricing-plan-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  transition: transform 0.3s ease;
+  background-color: #dea865; /* Change background color on hover */
+  border: 1px solid #ff8c00;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+  
+}
+
+/* Add a transition to smooth out color changes */
+.pricing-plan-card {
+  transition: background-color 0.3s ease;
+  height: 400px;
+}
+
+/* Make the cards side by side with some spacing */
+.pricing-plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pricing-plan-card {
+  flex: 1;
+  background-color: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 250px; /* Set a minimum width for cards */
+}
+
+/* Modify the card heading style */
+.pricing-plan-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #0048ff; /* Change text color */
+}
+
+/* Add some interactivity to the card text */
+.pricing-plan-card p {
+  font-size: 18px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.pricing-plan-card p:hover {
+  color: #e8b694d4; /* Change text color on hover */
+}
+
+/* Style the list elements */
+.pricing-plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pricing-plan-card li {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Center align the page heading */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 1px 0;
+  color: #333;
+  background-color: firebrick;
+}
+
+/* Add a colorful background for the page */
+body {
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Style the page container */
+.container {
+  padding: 20px;
+}

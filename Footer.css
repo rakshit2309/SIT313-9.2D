@@ -1,0 +1,51 @@
+/* Footer.css */
+.footer {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px; /* Set the same height as the navbar */
+    padding: 10px;
+    width: 98.2%;
+  }
+  
+  .footer-item {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .center {
+    
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 170px;
+    margin-right: -20px;
+  }
+  
+  .right {
+    position: relative;
+    text-align: right;
+    margin-top: -30px;
+  }
+  
+  .explore {
+    margin-top: 5px;
+    text-align: left; /* Align the "EXPLORE" text to the left */
+    margin-right: auto; /* Align "EXPLORE" to the left side of the footer */
+  }
+  
+  .footer-options {
+    list-style: none;
+    margin-left: -40px;
+  }
+  
+  .social-icons img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+
+  
+  
+  
